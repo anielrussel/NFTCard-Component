@@ -1,0 +1,123 @@
+.nft-card {
+    width: 350px;
+    height: auto;
+    margin-top: 7rem;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+.nft-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 299.8px;
+    height: 300px;
+    transition: 0.5s ease-in-out;
+    margin: -18.8rem 0 0 1.6rem;
+    opacity: 0;
+    border-radius: 10px;
+    position: absolute;
+    background: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.view img {
+    width: 50px;
+}
+.view:hover {
+    opacity: 0.5;
+}
+.nft-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+.nft-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 1.8rem;
+    font-family: var(--font-family);
+}
+.nft-container h1 {
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 1.5rem;
+}
+.nft-container h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+.nft-container p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    margin-top: 1rem;
+}
+.nft-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.eth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.eth h3 {
+    margin-left: 10px;
+    color: hsl(178, 100%, 50%);
+    font-size: 16px;
+}
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 4rem;
+}
+.clock p {
+    margin: -1px 0 0 10px;
+    font-size: 16px;
+}
+.divider {
+    margin-top: 1.5rem;
+    width: 300px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.nft-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+.nft-avatar img {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 33px;
+    height: 33px;
+}
+.nft-avatar p {
+    margin-top: -1px;
+    margin-left: 1rem;
+    font-size: 16px;
+}
+.nft-avatar span {
+    color: #a0aec0;
+}
+.nft-avatar span:hover {
+    color: hsl(178, 100%, 50%);
+}
+@media screen and (max-width: 375px) {
+    .nft-card{
+        margin-left: 12px;
+    }
+}
